@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#c2c2c2;
+}
+.tPanel{
+    background-color: darkslategray;
+    height:60px;
+    width: 100%;
+    align:right;
+    z-index: 1;
+}
+.login{
+    float:right;
+    padding-right: 10px;
+}
+.txtlogin{
+    margin-top: 15px;
+    font-family:AvantGarde Md BT;
+    font-size: 3mm;
+    width:150px;
+    height: 30px;
+    padding-left: 8px;
+    transition: 0.6s;
+    border-style: none;
+}
+.btnlogin{
+    margin-top: 15px;
+    font-family:AvantGarde Md BT;
+    font-size: 3mm;
+    width:100px;
+    height: 30px;
+    padding-left: 5px;
+    transition: 0.6s;
+    border-style: none;
+    background-image: linear-gradient(to right, #45ffec,#9645ff);
+    transition: 0.5s;
+}
+.btnlogin:hover{
+    cursor: hand;
+    background-image: linear-gradient(to right, #54e3d4,#9d52ff);
+}
+.lPane{
+    width: 30%;
+    background-color: #e8e8e8;
+    height: 100%;
+    overflow:scroll;
+}
+.rPane{
+    width:70%;
+    background-image:linear-gradient(to top,#ccd7e0,#c4e0ff);
+    height: 90%;
+    overflow: scroll;
+}
+.contain{
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: auto;
+    width:400px;
+    height:400px;
+    background-color:#e0e0e0;
+}
+.txt{
+    margin-top: 5px;
+    font-family:AvantGarde Md BT;
+    font-size: 5mm;
+    width:350px;
+    height: 40px;
+    padding-left: 15px;
+    transition: 0.6s;
+    border-style: none;
+}
+.btn{
+    margin-top: 5px;
+    font-family:AvantGarde Md BT;
+    font-size: 5mm;
+    width:350px;
+    height: 40px;
+    padding-left: 5px;
+    transition: 0.6s;
+    border-style: none;
+    background-image: linear-gradient(to right, #45ffec,#9645ff);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: hand;
+    background-image: linear-gradient(to right, #54e3d4,#9d52ff);
+}
+.title{
+    padding-top: 10px;
+    font-family:AvantGarde Md BT;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+.messageGreen{
+    font-family:AvantGarde Md BT;
+    color: green;
+    display: none;
+}
+.messageRed{
+    font-family:AvantGarde Md BT;
+    color: red;
+}
+.typeBox{
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+    height:50px;
+    width:100%;
+}
+.type{
+    height:50px;
+    width:80%;
+    bottom:0px;
+    border-style: none;
+    padding-left:10px;
+    margin-left: 0px;
+    
+}
+.btnSend{
+    height:50px;
+    width:100px;
+    position: fixed;
+    background-color: #9ec7de;
+    padding:3px;
+    right:0px;
+    border-style: none;
+}
+.btnSend:hover{
+    cursor: hand;
+}

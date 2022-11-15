@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            Home
+        </title>
+        <link type="text/css" href="style.css" rel="stylesheet"/>
+        <script type="text\javascript" src="myFunction.js"></script>
+    </head>
+    <body>
+        <div>
+            <div class="tPanel">
+                <div class="login">
+                        <input type="text" class="txtlogin" id="txtName" placeholder="User name"/>
+                        <input type="password" class="txtlogin" id="txtName" placeholder="Passowrd"/>
+                        <input type="submit" class="btnlogin" id="btnLogin" value="Log in" onclick="hello();"/>
+                </div>
+            </div>
+            <div class="Contain">
+                <p class="title"> New Register</p>
+                <input type="text" class="txt" id="txtName" placeholder="Enter your Name"/>
+                <input type="text" class="txt" id="txtUserName" placeholder="Enter your user name"/>
+                <input type="submit" class="btn" id="btnCheckUserNameValidity" value="Check user name avilable"/>
+                <p id="msgAvilable" class="messageGreen"> User name is avilable</p>
+                <div id="divPassword">
+                    <input type="password" class="txt" id="txtPassword" placeholder="Enter your user Password"/>
+                    <input type="password" class="txt" id="txtReEsnterPassword" placeholder="Re-enter Password"/>
+                    <input type="submit" class="btn" id="btnRegister" value="Register"/>
+                    <p id="msgPasswordValidate" class="messageRed"> Password doesnt match</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
