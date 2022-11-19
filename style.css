@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.custDiv {
+    transition: 0.5s;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 1px 1px 5px #aaaaaa;
+}
+
+.div-h-s {
+    height: 300px;
+}
+
+.div-h-l {
+    height: 500px;
+}
+
+.c-m-l {
+    margin-left: 20px;
+}
+
+.c-m-t {
+    margin-top: 20px;
+}
+
+.love {
+    background-color: blue;
+}
+
+.h-bg {
+    background-color: #0EA098;
+}
+
+.txt-1 {
+    font-size: 50px;
+}
+
+.txt-2 {
+    font-size: 30px;
+}
+
+.add-b-p-m {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.txt-j {
+    text-align: justify;
+}
+
+.mtop-0 {
+    margin-top: -15px;
+}
+
+.bg-gr {
+    background-image: linear-gradient(to right, #0aa098, #5eb6c6, #a2cbe3, #d9e3f3, #ffffff);
+}
+
+.img-size {
+    background-image: url("images/1.png");
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 576px) {
+    .img-size {
+        background-image: url("images/2.png");
+        background-size: cover;
+        height: 100px;
+        width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .txt-1 {
+        font-size: 25px;
+    }
+    .txt-2 {
+        font-size: 15px;
+    }
+    .c-m-l {
+        margin-left: 0px;
+    }
+    .div-h-s {
+        min-height: 300px;
+    }
+    .div-h-l {
+        min-height: 300px;
+    }
+}
